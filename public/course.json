@@ -1,0 +1,98 @@
+[
+    {
+      "course_image": "https://i.ibb.co.com/WvZFQKH/image-2025-01-15-234230179.png",
+      "course_title": "Python for Beginners",
+      "course_description": "Learn the fundamentals of Python programming.",
+      "course_price": 99.99,
+      "course_credit": 30,
+      "id": "b7575277-39f1-4ac3-abfb-06f848c95145"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/RBdNKk1/image-2025-01-15-234421798.png",
+      "course_title": "Web Development Bootcamp",
+      "course_description": "Master HTML, CSS, and JavaScript for web development.",
+      "course_price": 199.99,
+      "course_credit": 60,
+      "id": "b5f75c43-9acf-47e0-ba9b-8eb468dd7408"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/0GvhGV2/image-2025-01-15-234524296.png",
+      "course_title": "Data Science with Python",
+      "course_description": "Learn data analysis and machine learning with Python.",
+      "course_price": 149.99,
+      "course_credit": 45,
+      "id": "a23862b5-43d8-4676-a586-1f3147ce3ea9"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/RBdNKk1/image-2025-01-15-234421798.png",
+      "course_title": "Machine Learning Fundamentals",
+      "course_description": "Understand the core concepts of machine learning.",
+      "course_price": 129.99,
+      "course_credit": 35,
+      "id": "3f86ded7-a684-4eb8-a6b8-4e6c7a610269"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/RBdNKk1/image-2025-01-15-234421798.png",
+      "course_title": "Deep Learning with TensorFlow",
+      "course_description": "Learn deep learning techniques with TensorFlow.",
+      "course_price": 179.99,
+      "course_credit": 50,
+      "id": "2b7d1e6b-c9b8-4601-bbd7-5b300ac100e8"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/nLh8FrT/image-2025-01-15-235511830.png",
+      "course_title": "Cybersecurity Essentials",
+      "course_description": "Learn the fundamentals of cybersecurity.",
+      "course_price": 89.99,
+      "course_credit": 25,
+      "id": "9df9098f-896a-4891-8195-590d703c4689"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/3sWj09W/image-2025-01-15-235326633.png",
+      "course_title": "Digital Marketing Mastery",
+      "course_description": "Learn the strategies for successful digital marketing.",
+      "course_price": 119.99,
+      "course_credit": 32,
+      "id": "90098967-981f-4b95-8591-98ab985b9278"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/nLh8FrT/image-2025-01-15-235511830.png",
+      "course_title": "Graphic Design Fundamentals",
+      "course_description": "Learn the basics of graphic design principles.",
+      "course_price": 79.99,
+      "course_credit": 20,
+      "id": "9129928f-198a-4a27-9a09-90e282ab98ab"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/3sWj09W/image-2025-01-15-235326633.png",
+      "course_title": "UI/UX Design for Beginners",
+      "course_description": "Learn the principles of user interface and user experience design.",
+      "course_price": 99.99,
+      "course_credit": 28,
+      "id": "3127801a-7a79-4ab9-9ab7-ea8921119702"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/3sWj09W/image-2025-01-15-235326633.png",
+      "course_title": "Project Management Professional (PMP)",
+      "course_description": "Prepare for the PMP certification exam.",
+      "course_price": 499.99,
+      "course_credit": 80,
+      "id": "89009ab2-10ab-4298-b989-8900ab1982ab"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/3sWj09W/image-2025-01-15-235326633.png",
+      "course_title": "Business Analytics with R",
+      "course_description": "Learn business analytics techniques with R.",
+      "course_price": 169.99,
+      "course_credit": 42,
+      "id": "198a981b-0ab1-498a-b829-28ab981b9812"
+    },
+    {
+      "course_image": "https://i.ibb.co.com/nLh8FrT/image-2025-01-15-235511830.png",
+      "course_title": "AWS Certified Cloud Practitioner",
+      "course_description": "Prepare for the AWS Certified Cloud Practitioner exam.",
+      "course_price": 199.99,
+      "course_credit": 48,
+      "id": "989b982a-98ab-4198-ba98-9812ab98ab98"
+    }
+  ]
