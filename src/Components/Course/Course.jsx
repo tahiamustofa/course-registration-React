@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Course = props => {
    let {course,handleCourseMarks}=props;
-   let {course_image,course_title,course_description,course_price,course_credit}=course;
+   let {course_image,course_title,course_description,course_price,course_credit,id}=course;
     return (
         <div className='shadow-xl bg-yellow-50 p-5 space-y-5 my-5'>
            <div>
@@ -15,7 +15,7 @@ const Course = props => {
             <p> <button className='bg-slate-50 p-2 border-yellow-400 border-2'>credit:</button> {course_credit} hrs</p>
             
            </div>
-           <button onClick={()=>handleCourseMarks(course_title,course_credit)} className='mx-auto flex justify-center border-2 border-white shadow-xl px-5 bg-yellow-400 p-2 rounded'>Select</button>
+           <button onClick={()=>handleCourseMarks(course_credit,course,id)} className='mx-auto flex justify-center border-2 border-white shadow-xl px-5 bg-yellow-400 p-2 rounded'>Select</button>
         </div>
     );
 };

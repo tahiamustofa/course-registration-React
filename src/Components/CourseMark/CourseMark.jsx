@@ -3,11 +3,10 @@ import PropTypes from 'prop-types'
 
 function CourseMark(props) {
     const {courseMark}= props;
+    const {course_title} = courseMark
   return (
     <div>
-    
-     <h3 className='bg-purple-300 p-4 m-3 shadow-xl'>{courseMark}</h3>
-    
+      <h3 className='bg-purple-300 p-4 m-3 shadow-xl'>{course_title}</h3>
     </div>
   )
 }
