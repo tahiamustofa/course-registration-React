@@ -2,20 +2,14 @@
 import PropTypes from 'prop-types';
 
 import CourseMark from '../CourseMark/CourseMark';
-// import { useState } from 'react';
+
 
 const CourseMarks = ({ courseMarks, course_credit,remaining}) => {
-    // let [remo, setRemo] = useState('');
- 
-let remain = remaining;
-    if (remain >= 0) {
-        remain= remaining;
-       
-        return (
+      return (
             <div className='lg:w-1/5'>
                 <h2 className='m-3 font-semibold bg-yellow-200 p-2'>CourseMarks {courseMarks.length}</h2>
                 <div>
-                 <p className='p-3 m-3 bg-pink-400'>remain {remain}</p>
+                 <p className='p-3 m-3 bg-pink-400'>remain {remaining}</p>
             </div>
                
                 {
@@ -25,22 +19,7 @@ let remain = remaining;
               
             </div>
         );
-    } 
-
-    else{
-        alert("can't remain negative ");
-        return (
-            <div className='lg:w-1/5'>
-                <h2 className='m-3 font-semibold bg-yellow-200 p-2'>CourseMarks {courseMarks.length}</h2>
-               
-                {
-                    courseMarks.map(courseMark => <CourseMark key={courseMark} course_credit={course_credit} courseMark={courseMark}></CourseMark>)
-                }
-                <p className='p-3 m-3 bg-pink-400' id='tag'> credit {course_credit}  </p>
-              
-            </div>
-        );
-    }
+    
 };
 
 CourseMarks.propTypes = {

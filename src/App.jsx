@@ -7,28 +7,22 @@ import Header from './Components/Header/Header'
 function App() {
   const [courseMarks,setCourseMarks] =useState([]);
   const [course_credit,set_credit]= useState(0);
-
-  // let p = 0
-  //   if () {
-  //      p = p + course_credit ;
-       
-  //   //    setRemo(document.getElementById('tag').classList.remove("hidden"));
-       
-  //   } else {
-  //       alert('pls select in 300hrs')
-  //   }
-
+const [remaining,setRemaining]=useState(300)
+  
+ 
   let handleCourseMarks=(credit,course,id)=>{
     
-    if (courseMarks.find((mark) => mark.id === id) ) {
+    if (courseMarks.find((mark) => mark.id === id) || remaining<0 ) {
         alert("You can't click that more than once"); // Stop execution if course already exists
 
      
     } else{
-      if (course_credit < 300) {
+      let rest=(remaining-credit);
+      if (rest>=0) {
         let newSetCouseMark = [...courseMarks,course] // Add new course and update credit
 setCourseMarks(newSetCouseMark);
 set_credit(course_credit + credit);
+setRemaining(rest)
       } else {
         alert("You can't add more then credit  300"); 
         
@@ -37,7 +31,7 @@ set_credit(course_credit + credit);
     }
   
 }
-  let remaining = 300 - course_credit;
+  
 
   
   return (
